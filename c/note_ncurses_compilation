@@ -1,0 +1,1 @@
+gcc hangman.c -lncurses -L/usr/local/opt/ncurses/lib -I/usr/local/opt/ncurses/include

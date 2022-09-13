@@ -1,0 +1,17 @@
+Program to write Tsheten's video data into a text file
+=======================================
+
+Compile
+----------
+To compile, run: "make tsheten"
+This will make the executable named tsheten
+
+Running
+----------
+Do "./tsheten" to run the program. The output file name is hardcoded into the code as test-file.txt.
+The program opens the file in write and append mode. If the file is not present, it will create it.
+If the file is already present, it will append the data to the file.
+
+Cleaning
+----------
+Do "make clean" to delete the object (.o) files and the main executable file tsheten.
